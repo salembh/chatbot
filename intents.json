@@ -1,0 +1,81 @@
+{"intents":  [
+  {
+    "tag": "greetings",
+    "patterns": [
+      "hello",
+      "hey",
+      "hi",
+      "good day",
+      "greetings",
+      "what's up?",
+      "how is it going",
+      "yo"
+    ],
+    "responses": [
+      "Hello!",
+      "Hey!",
+      "What can I do for you?"
+    ]
+  },
+
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "cya",
+      "bye",
+      "good bye",
+      "see you later",
+      "goodbye",
+      "see ya"
+    ],
+    "responses": [
+      "GoodBye!",
+      "See you later!",
+      "have a good day!"
+    ]
+  },
+
+  {
+    "tag": "name",
+    "patterns": [
+      "who are you",
+      "whats your name",
+      "wha is your name",
+      "who made you"
+    ],
+    "responses": [
+      "Im Heroin made by Salem using Python",
+      "Im Heroin made by salem to help you",
+      "Im Heroin"
+    ]
+  },
+
+  {
+    "tag": "age",
+    "patterns": [
+      "how old are you",
+      "whats your age",
+      "when are you bron",
+      "when is your birthday"
+    ],
+    "responses": [
+      "My development started on 13th october 2024",
+      "AI's don't have age but my development started on 13th october 2024"
+    ]
+  },
+
+  {
+    "tag": "feelings",
+    "patterns": [
+      "i love you",
+      "i like you",
+      "i wanna marry you",
+      "i have feelings for you"
+    ],
+    "responses": [
+      "Im a chatbot and i can't have or express feelings, Sorry",
+      "Im glad to hear that u feel that way, But us robots can't have feelings or express it",
+      "Robots Don't have feelings, Im here to help you"
+    ]
+  }
+]}
